@@ -23,7 +23,7 @@ Coming soon...
 ## Installation
 Clone or download the content of this repository inside your Ghost theme folder.
 
-```
+```bash
 $ cd /path-to-ghost-root
 $ git clone https://github.com/thlb/ghost-whiletrue/.git content/themes/whiletrue
 
@@ -34,6 +34,39 @@ $ git clone https://github.com/thlb/ghost-whiletrue/.git content/themes/whiletru
 ## Configuration
 Coming soon...
 
+### Pace
+
+Pace's Javascript is already included. You just have to specify the theme of the progress bar.
+Choose a theme [here](http://github.hubspot.com/pace/docs/welcome/), and paste the css code in the code injection (the admin area)
+
+Here's the css code of the 'minimal' theme :
+
+```html
+<style>
+.pace {
+  -webkit-pointer-events: none;
+  pointer-events: none;
+
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  user-select: none;
+}
+
+.pace-inactive {
+  display: none;
+}
+
+.pace .pace-progress {
+  background: #29d;
+  position: fixed;
+  z-index: 2000;
+  top: 0;
+  right: 100%;
+  width: 100%;
+  height: 2px;
+}
+</style>
+```
 
 ## Copyright & License
 
