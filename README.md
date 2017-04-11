@@ -11,6 +11,7 @@ The main page display the posts with a timeline. WhileTrue is enhanced by the sa
 * Display individual post with Casper display
 * Fully responsive (for mobiles and tablets)
 * Google Analytics (configurable by code injection in the admin area)
+* [Pace](http://github.hubspot.com/pace/docs/welcome/) loading progress bar (configurable by code injection in the admin area)
 * [Disqus](https://disqus.com) comments (configurable by code injection in the admin area)
 * [Prism](http://prismjs.com/) Syntax Highlighting (no configuration needed)
 * [RRSSB](https://github.com/kni-labs/rrssb) Social Sharing Buttons (no configuration needed)
