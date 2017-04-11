@@ -1,0 +1,37 @@
+{
+    "name": "whiletrue",
+    "description": "WhileTrue is a very simple fork of the Ghost default theme Casper. The main page display the posts with a timeline. WhileTrue is enhanced by the same features of awesome Odin's theme.",
+    "demo": "",
+    "version": "0.1.0",
+    "engines": {
+        "ghost": ">=0.7.0 <1.0.0"
+    },
+    "license": "MIT",
+    "screenshots": {
+        "desktop": "assets/screenshot-desktop.jpg",
+        "mobile": "assets/screenshot-mobile.jpg"
+    },
+    "author": {
+        "name": "Thibaud Gahagnon",
+        /*"email": "hello@ghost.org",*/
+        "url": "https://thibaud-gahagnon.com"
+    },
+    "gpm": {
+        "type": "theme",
+        "categories": [
+            "Minimal",
+            "Personal Blogs"
+        ]
+    },
+    "keywords": [
+        "ghost",
+        "theme",
+        "timeline"
+    ],
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/thlb/ghost-whiletrue.git"
+    },
+    "bugs": "https://github.com/thlb/ghost-whiletrue/issues",
+    "contributors": "https://github.com/thlb/ghost-whiletrue/graphs/contributors"
+}
