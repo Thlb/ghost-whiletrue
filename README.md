@@ -32,12 +32,14 @@ $ git clone https://github.com/thlb/ghost-whiletrue/.git content/themes/whiletru
 
 
 ## Configuration
+
+### Disqus
 Coming soon...
 
 ### Pace
 
 Pace's Javascript is already included. You just have to specify the theme of the progress bar.
-Choose a theme [here](http://github.hubspot.com/pace/docs/welcome/), and paste the css code in the code injection (the admin area)
+Choose a theme [here](http://github.hubspot.com/pace/docs/welcome/), and paste the css code in the code injection (admin area).
 
 Here's the css code of the 'minimal' theme :
 
@@ -67,6 +69,18 @@ Here's the css code of the 'minimal' theme :
 }
 </style>
 ```
+
+### Google Analytics
+Coming soon...
+
+### Font Awesome
+Coming soon...
+
+### RRSSB
+No configuration needed...
+
+### Prism
+No configuration needed...
 
 ## Copyright & License
 
